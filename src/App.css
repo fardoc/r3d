@@ -36,22 +36,25 @@
   padding: 100px;
 }
 .mod-graph svg {
-  border: 1px dotted #333333;
+  border: 1px dotted #999999;
 }
-.mod-graph .graphBody {}
+.mod-graph .graphBody {
+}
 .mod-graph .graphBody .axisX line,
 .mod-graph .graphBody .axisY line {
-  stroke: #333333;
+  stroke: #999999;
 }
 .mod-graph .graphBody .ticksX line,
 .mod-graph .graphBody .ticksY line {
-  stroke: #333333;
+  stroke: #999999;
   stroke-width: 1px;
   stroke-dasharray: 2;
 }
 .mod-graph .labelX text {
+  fill: #999999;
   font-size: 12px;
 }
 .mod-graph .labelY text {
+  fill: #999999;
   font-size: 12px;
 }
